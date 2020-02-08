@@ -1,0 +1,39 @@
+{
+    "name": "back",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js ",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node src/index.js",
+        "devbabel": " src/index.js --exec babel-node"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-history-api-fallback": "^1.6.0",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "firebase": "^7.8.0",
+        "firebase-admin": "^8.9.2",
+        "gridfs-stream": "^1.1.1",
+        "jimp": "^0.9.3",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.8.11",
+        "morgan": "^1.9.1",
+        "multer": "^1.4.2",
+        "multer-gridfs-storage": "^4.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.4",
+        "@babel/node": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "nodemon": "^2.0.2"
+    }
+}
